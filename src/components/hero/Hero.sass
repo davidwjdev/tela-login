@@ -1,0 +1,18 @@
+//Media queries
+$Desktop: 1024px
+$Tablet: 768px
+$Mobile: 420px
+
+//Variables    
+$textColor: #000000
+    
+.hero
+    font-family: Avenir, Heavy, Helvetica, Arial, sans-serif
+    font-size: 35px
+    font-weight: bold
+    text-align: right
+    color:$textColor
+
+@media screen and ( min-width: $Mobile ) and ( max-width: $Tablet ) 
+    .hero
+        font-size: 25px

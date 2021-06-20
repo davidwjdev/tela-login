@@ -1,0 +1,103 @@
+//Media queries
+$Desktop: 1024px
+$Tablet: 768px
+$Mobile: 420px
+    
+//Variables
+$colorLabels: #707070
+$colorBorder: #707070
+$colorLink: #707070
+$colorLinkCreateAccount: #A9C5BA
+$colorButton: #707070
+$colorTextButton: #FFFFFF
+$colorLinkHover: #000000
+$colorBorderFocused: #000000
+
+.sign-in-background
+    display: flex
+    flex-direction: column
+
+.form-background
+    padding: 0 20%
+
+.form-sign-in
+    display: flex
+    flex-direction: column
+    color: $colorLabels
+    align-items: stretch
+    font-size:14px
+    
+.title-form
+    font-size: 30px
+    padding: 50px 0
+    display: flex
+    justify-content: center
+    color: $colorLabels
+
+
+.item-form
+    margin:10px 0 20px 0
+    outline: 0
+    border-color: $colorBorder
+    border-width: 0 0 1px
+    height: 20px
+
+.item-form:focus
+    border-color: $colorBorderFocused
+    border-width: 0 0 3px
+
+.forgot-password:link, .forgot-password:visited, .forgot-password:active
+    text-decoration: none
+    color: $colorLink
+    margin-bottom:20px
+    text-align: right
+
+.forgot-password:hover
+    color: $colorLinkHover
+
+.button-form
+    border: none
+    width: 100px 
+    align-self: center   
+    background-color: $colorButton
+    border-radius: 20px
+    color: $colorTextButton
+    padding: 5px 10px
+
+.divisor-or
+    color: $colorLabels
+    font-size: 14px
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    padding: 30px 0
+    text-align: center
+
+.button-google
+    width: 200px
+    height: auto
+
+.div-button-google
+    text-align: center
+    padding: 10px
+
+.div-link-create-account
+    color: $colorLabels
+    font-size:14px
+    padding: 10px
+    text-align: center
+
+.link-create-account:active, .link-create-account:link, .link-create-account:visited
+    color: $colorLinkCreateAccount
+
+.link-create-account:hover
+    color: $colorLinkHover
+
+.invision-link-create-account
+    font-weight: bold
+
+@media screen and ( min-width: $Mobile ) and ( max-width: $Tablet ) 
+    .button-google
+        width: 150px
+        height: auto
+    .title-form
+        font-size: 20px

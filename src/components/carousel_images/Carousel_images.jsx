@@ -27,8 +27,8 @@ export default function Carousel_images() {
                         alt="Primeira Imagem"
                     />
                     <div className='text-image'>
-                        <p className='title'>Marcenas mattis egestas</p>
-                        <p className='subtitle'>Erdum et malesuada fames ac ante ileum primmer in faucibus uspendisse porta.</p>
+                        <p className='title-carousel'>Marcenas mattis egestas</p>
+                        <p className='subtitle-carousel'>Erdum et malesuada fames ac ante ileum primmer in faucibus uspendisse porta.</p>
                     </div>
                 </Carousel.Item>
                 {/* Item do Carousel - Segunda Imagem*/}
@@ -39,8 +39,8 @@ export default function Carousel_images() {
                         alt="Segunda Imagem"
                     />
                     <div className='text-image'>
-                        <p className='title'>Marcenas mattis egestas</p>
-                        <p className='subtitle'>Erdum et malesuada fames ac ante ileum primmer in faucibus uspendisse porta.</p>
+                        <p className='title-carousel'>Marcenas mattis egestas</p>
+                        <p className='subtitle-carousel'>Erdum et malesuada fames ac ante ileum primmer in faucibus uspendisse porta.</p>
                     </div>
                 </Carousel.Item>
             </Carousel>

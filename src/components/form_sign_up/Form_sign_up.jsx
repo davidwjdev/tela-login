@@ -31,7 +31,7 @@ export default function Form_sign_in() {
                 </div>
                 <div className='div-link-create-account'>
                     <span>New <span className='invision-link-create-account'>Invision</span> ?
-                    <Link to='/sign_in' className='link-create-account'> Create Account</Link>
+                    <Link to='/' className='link-create-account'> Create Account</Link>
                     </span>
                 </div>
             </div>

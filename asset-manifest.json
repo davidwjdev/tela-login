@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tela-login/static/css/main.5e3a6356.chunk.css",
+    "main.js": "/tela-login/static/js/main.0f29d8a2.chunk.js",
+    "main.js.map": "/tela-login/static/js/main.0f29d8a2.chunk.js.map",
+    "runtime-main.js": "/tela-login/static/js/runtime-main.aa31ee76.js",
+    "runtime-main.js.map": "/tela-login/static/js/runtime-main.aa31ee76.js.map",
+    "static/css/2.4f8976c6.chunk.css": "/tela-login/static/css/2.4f8976c6.chunk.css",
+    "static/js/2.06ab7676.chunk.js": "/tela-login/static/js/2.06ab7676.chunk.js",
+    "static/js/2.06ab7676.chunk.js.map": "/tela-login/static/js/2.06ab7676.chunk.js.map",
+    "index.html": "/tela-login/index.html",
+    "static/css/2.4f8976c6.chunk.css.map": "/tela-login/static/css/2.4f8976c6.chunk.css.map",
+    "static/css/main.5e3a6356.chunk.css.map": "/tela-login/static/css/main.5e3a6356.chunk.css.map",
+    "static/js/2.06ab7676.chunk.js.LICENSE.txt": "/tela-login/static/js/2.06ab7676.chunk.js.LICENSE.txt",
+    "static/media/data_1.033f6ca5.png": "/tela-login/static/media/data_1.033f6ca5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa31ee76.js",
+    "static/css/2.4f8976c6.chunk.css",
+    "static/js/2.06ab7676.chunk.js",
+    "static/css/main.5e3a6356.chunk.css",
+    "static/js/main.0f29d8a2.chunk.js"
+  ]
+}

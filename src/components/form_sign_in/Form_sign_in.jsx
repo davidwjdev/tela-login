@@ -13,7 +13,7 @@ export default function Form_sign_in() {
                 <label className='title-form'>Welcome to Invision</label>
                 <form className='form-sign-in'>
                     <label>Users name or Email</label>
-                    <input className='item-form' type='text' required />
+                    <input className='item-form' type='email' required />
                     <label>Password</label>
                     <input className='item-form' type='password' required />
                     <a href='#' className='forgot-password'>Forgot password?</a>

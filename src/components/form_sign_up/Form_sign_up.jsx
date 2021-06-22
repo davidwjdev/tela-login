@@ -13,7 +13,7 @@ export default function Form_sign_in() {
                 <label className='title-form'>Getting Started</label>
                 <form className='form-sign-in'>
                     <label>Full Name</label>
-                    <input className='item-form' type='text' required maxlength='150'/>
+                    <input className='item-form' type='email' required maxlength='150'/>
                     <label>Users name or Email</label>
                     <input className='item-form' type='text' required />
                     <label>Password</label>

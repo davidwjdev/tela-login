@@ -30,8 +30,8 @@ export default function Form_sign_in() {
                     <img src={buttonGoogle} alt='Google Sign in' className='button-google' />
                 </div>
                 <div className='div-link-create-account'>
-                    <span>New <span className='invision-link-create-account'>Invision</span> ?
-                    <Link to='/' className='link-create-account'> Create Account</Link>
+                    <span>Already on <span className='invision-link-create-account'>Invision</span> ?
+                    <Link to='/tela-login' className='link-create-account'> Log in</Link>
                     </span>
                 </div>
             </div>

@@ -17,7 +17,7 @@ ReactDOM.render(
     </div>
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact={true} component={Sign_in} />
+        <Route path="/tela-login" exact={true} component={Sign_in} />
         <Route path="/sign_up" component={Sign_up} /> 
 
       </Switch>

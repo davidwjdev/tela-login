@@ -13,9 +13,9 @@ export default function Form_sign_in() {
                 <label className='title-form'>Getting Started</label>
                 <form className='form-sign-in'>
                     <label>Full Name</label>
-                    <input className='item-form' type='email' required maxlength='150'/>
+                    <input className='item-form' type='text' required maxlength='150'/>
                     <label>Users name or Email</label>
-                    <input className='item-form' type='text' required />
+                    <input className='item-form' type='email' required />
                     <label>Password</label>
                     <input className='item-form' type='password' required  minLength='6'/>
                     <a href='#' className='forgot-password'>Forgot password?</a>

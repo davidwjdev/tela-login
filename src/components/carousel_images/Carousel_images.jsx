@@ -8,10 +8,10 @@ import Slider from 'infinite-react-carousel';
 export default function Carousel_images() {
 // Configuração do package
     const settings = {
-        adaptiveHeight: true,
-        autoplay: true,
-        dots: true,
-        arrows: false,
+        adaptiveHeight: true, //ajuste automatico de altura
+        autoplay: true, // troca de imagem automaticamente
+        dots: true, // os pontos que permite o usuario escolher a imagem 
+        arrows: false, // desativa as setas direcionais que escolher a imagem anterior/proxima
     };
     return (
         <div className='carousel-images-background'>

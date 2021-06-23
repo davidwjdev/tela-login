@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tela-login/static/css/main.8244c872.chunk.css",
-    "main.js": "/tela-login/static/js/main.c9a5e33d.chunk.js",
-    "main.js.map": "/tela-login/static/js/main.c9a5e33d.chunk.js.map",
+    "main.js": "/tela-login/static/js/main.6d8126bd.chunk.js",
+    "main.js.map": "/tela-login/static/js/main.6d8126bd.chunk.js.map",
     "runtime-main.js": "/tela-login/static/js/runtime-main.aa31ee76.js",
     "runtime-main.js.map": "/tela-login/static/js/runtime-main.aa31ee76.js.map",
     "static/css/2.29aa199f.chunk.css": "/tela-login/static/css/2.29aa199f.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.29aa199f.chunk.css",
     "static/js/2.93dfe820.chunk.js",
     "static/css/main.8244c872.chunk.css",
-    "static/js/main.c9a5e33d.chunk.js"
+    "static/js/main.6d8126bd.chunk.js"
   ]
 }

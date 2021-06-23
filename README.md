@@ -1,3 +1,3 @@
 # GitPages
 
-https://davidwjdev.github.io/sign_up
+https://davidwjdev.github.io/tela-login/

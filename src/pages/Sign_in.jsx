@@ -5,8 +5,8 @@ import './Sign_in.sass';
 export default function Sign_in() {
 
     return (
-            <div className='form'>
-                <Form_sign_in />
-            </div>
+        <div className='form'>
+            <Form_sign_in />
+        </div>
     );
 }

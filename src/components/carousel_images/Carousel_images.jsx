@@ -2,11 +2,10 @@ import React from "react";
 import './Carousel_images.sass'
 import image1 from '../../assets/img/data_1.png';
 import image2 from '../../assets/img/data_1.png';
-
 import Slider from 'infinite-react-carousel';
 
 export default function Carousel_images() {
-// Configuração do package
+    // Configuração do package
     const settings = {
         adaptiveHeight: true, //ajuste automatico de altura
         autoplay: true, // troca de imagem automaticamente
@@ -15,7 +14,7 @@ export default function Carousel_images() {
     };
     return (
         <div className='carousel-images-background'>
-{/* Carousel images */}
+            {/* Carousel images */}
             <Slider {...settings}>
                 <div>
                     <img

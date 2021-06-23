@@ -4,15 +4,21 @@ $Tablet: 768px
 $Mobile: 420px
 
 //Variables    
-$textColor: #000000
-    
+$colorBlack: #000000
+
+//Desktop
+$bigFontSizeDesktop: 35px
+
+//Mobile
+$bigFontSizeMobile: 25px
+
 .hero
     font-family: Avenir, Heavy, Helvetica, Arial, sans-serif
-    font-size: 35px
+    font-size: $bigFontSizeDesktop
     font-weight: bold
     text-align: right
-    color:$textColor
+    color: $colorBlack
 
-@media screen and ( min-width: $Mobile ) and ( max-width: $Tablet ) 
+@media screen and ( min-width: $Mobile ) and ( max-width: $Tablet )
     .hero
-        font-size: 25px
+        font-size: $bigFontSizeMobile

@@ -2,41 +2,45 @@
 $Desktop: 1024px
 $Tablet: 768px
 $Mobile: 420px
-    
+
 //Variables
 $bgColor: #A9C5BA // Cor de fundo
 $textColor: #FFFFFF // Cor do texto
-    
+//Desktop
+$titleCarouselDesktop: 30px
+$subtitleCarouselDesktop: 20px
+//Mobile
+$titleCarouselMobile: 20px
+$subtitleCarouselMobile: 14px
+
 .carousel-images-background
     background-color: $bgColor
     color: $textColor
     text-align: center
     padding: 100px 50px
-    height: auto
+    height: 100%
 
 .images
     width: 400px
     height: auto
 
-
 .title-carousel
-    font-size: 30px
+    font-size: $titleCarouselDesktop
     padding: 30px 0 0 0
 
 .subtitle-carousel
-    font-size: 20px
+    font-size: $subtitleCarouselDesktop
     padding: 20px
     margin: 0 10%
 
 .carousel.slide
     max-width: fit-content
 
-
-@media screen and ( min-width: $Mobile ) and ( max-width: $Tablet ) 
+@media screen and ( min-width: $Mobile ) and ( max-width: $Tablet )
     .images
         width: 300px
         height: auto
     .title-carousel
-        font-size: 20px
+        font-size: $titleCarouselMobile
     .subtitle-carousel
-        font-size: 14px
+        font-size: $subtitleCarouselMobile

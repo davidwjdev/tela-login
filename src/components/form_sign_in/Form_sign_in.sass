@@ -2,17 +2,21 @@
 $Desktop: 1024px
 $Tablet: 768px
 $Mobile: 420px
-    
+
 //Variables
-$colorLabels: #707070
-$colorBorder: #707070
-$colorBorderError: #FF0000
-$colorLink: #707070
-$colorLinkCreateAccount: #A9C5BA
-$colorButton: #707070
-$colorTextButton: #FFFFFF
-$colorLinkHover: #000000
-$colorBorderFocused: #000000
+$colorDarkGrey: #707070
+$colorRed: #FF0000
+$colorLightGrey: #A9C5BA
+$colorWhite: #FFFFFF
+$colorBlack: #000000
+
+//Desktop
+$bigFontSizeDesktop: 30px
+$smallFontSizeDesktop: 14px
+$smallFontSizeErrorDesktop: 12px
+
+//Mobile
+$bigFontSizeMobile: 20px
 
 .sign-in-background
     display: flex
@@ -24,50 +28,49 @@ $colorBorderFocused: #000000
 .form-sign-in
     display: flex
     flex-direction: column
-    color: $colorLabels
+    color: $colorDarkGrey
     align-items: stretch
-    font-size:14px
-    
+    font-size: $smallFontSizeDesktop
+
 .title-form
-    font-size: 30px
+    font-size: $bigFontSizeDesktop
     padding: 50px 0
     display: flex
     justify-content: center
-    color: $colorLabels
-
+    color: $colorDarkGrey
 
 .item-form
-    margin:10px 0 10px 0
+    margin: 10px 0 10px 0
     outline: 0
-    border-color: $colorBorder
+    border-color: $colorDarkGrey
     border-width: 0 0 1px
     height: 20px
 
 .item-form:focus
-    border-color: $colorBorderFocused
+    border-color: $colorBlack
     border-width: 0 0 3px
 
 .forgot-password:link, .forgot-password:visited, .forgot-password:active
     text-decoration: none
-    color: $colorLink
-    margin-bottom:20px
+    color: $colorDarkGrey
+    margin-bottom: 20px
     text-align: right
 
 .forgot-password:hover
-    color: $colorLinkHover
+    color: $colorBlack
 
 .button-form
     border: none
-    width: 100px 
-    align-self: center   
-    background-color: $colorButton
+    width: 100px
+    align-self: center
+    background-color: $colorDarkGrey
     border-radius: 20px
-    color: $colorTextButton
+    color: $colorWhite
     padding: 5px 10px
 
 .divisor-or
-    color: $colorLabels
-    font-size: 14px
+    color: $colorDarkGrey
+    font-size: $smallFontSizeDesktop
     display: grid
     grid-template-columns: 1fr 1fr 1fr
     padding: 30px 0
@@ -82,40 +85,39 @@ $colorBorderFocused: #000000
     padding: 10px
 
 .div-link-create-account
-    color: $colorLabels
-    font-size:14px
+    color: $colorDarkGrey
+    font-size: $smallFontSizeDesktop
     padding: 10px
     text-align: center
 
 .link-create-account:active, .link-create-account:link, .link-create-account:visited
-    color: $colorLinkCreateAccount
+    color: $colorLightGrey
 
 .link-create-account:hover
-    color: $colorLinkHover
+    color: $colorBlack
 
 .invision-link-create-account
     font-weight: bold
 
 .input-error
-    font-size: 12px
-    color: red
+    font-size: $smallFontSizeErrorDesktop
+    color: $colorRed
     padding-bottom: 10px
 
 .input-error-border
     margin: 10px 0 10px 0
     outline: 0
-    border-color: $colorBorderError
+    border-color: $colorRed
     border-width: 0 0 1px
     height: 20px
 
 .input-error-border:focus
-    border-color: $colorBorderError
+    border-color: $colorRed
     border-width: 0 0 3px
 
-
-@media screen and ( min-width: $Mobile ) and ( max-width: $Tablet ) 
+@media screen and ( min-width: $Mobile ) and ( max-width: $Tablet )
     .button-google
         width: 150px
         height: auto
     .title-form
-        font-size: 20px
+        font-size: $bigFontSizeMobile

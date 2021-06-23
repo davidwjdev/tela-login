@@ -1,17 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Form_sign_in.sass';
 import Hero from '../hero/Hero';
 import buttonGoogle from '../../assets/img/btn_google_signin_light_normal_web@2x.png';
 import { Link } from 'react-router-dom';
-
 import { useForm } from "react-hook-form";
 
-export default function Form_sign_in (){
+export default function Form_sign_in() {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
-        alert("Login efetuado com sucesso");
+        alert("Sucess");
     }
 
 
@@ -23,12 +22,12 @@ export default function Form_sign_in (){
                 <form className='form-sign-in' onSubmit={handleSubmit(onSubmit)} >
                     <label>Users name or Email</label>
                     <input name='email' type="text" className={errors.email ? "input-error-border" : "item-form"}
-                    {...register("email", {required: "O campo não pode ester vazio", pattern: {value:/^\S+@\S+$/i , message:"O e-mail é invalido"}} )} />
-                    <label className="input-error">{errors.email && errors.email.message}</label> 
+                        {...register("email", { required: "This field cannot be empty", pattern: { value: /^\S+@\S+$/i, message: "This e-mail is invalid" } })} />
+                    <label className="input-error">{errors.email && errors.email.message}</label>
                     <label>Password</label>
                     <input name='password' type='password' className={errors.password ? "input-error-border" : "item-form"}
-                     {...register("password", {required: "O campo não pode ester vazio"} )} />
-                    <label className="input-error">{errors.password && errors.password.message}</label> 
+                        {...register("password", { required: "This field cannot be empty" })} />
+                    <label className="input-error">{errors.password && errors.password.message}</label>
                     <a href='#' className='forgot-password'>Forgot password?</a>
                     <button className='button-form' type='submit'>Sign in</button>
                 </form>

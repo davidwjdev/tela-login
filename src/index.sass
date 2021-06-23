@@ -6,7 +6,7 @@
 //Media queries
 $Desktop: 1024px
 $Tablet: 768px
-$Mobile: 768px
+$Mobile: 320px
 
 .div-sign-in-sign-up
     display: flex
@@ -18,7 +18,7 @@ $Mobile: 768px
     height: auto
     min-width: 50%
 
-@media screen and ( max-width: $Tablet )
+@media screen and (min-width: $Mobile) and ( max-width: $Tablet )
     .div-sign-in-sign-up
         display: flex
         flex-direction: column-reverse

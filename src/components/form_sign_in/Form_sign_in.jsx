@@ -10,7 +10,7 @@ export default function Form_sign_in() {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
-        alert("Sucess");
+        alert("Success");
     }
 
 

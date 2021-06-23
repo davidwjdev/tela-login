@@ -9,7 +9,7 @@ export default function Form_sign_up() {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
-        alert("Sucess");
+        alert("Success");
     }
     return (
         <div className='sign-up-background'>
